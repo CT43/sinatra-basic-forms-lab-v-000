@@ -16,6 +16,4 @@ class App < Sinatra::Base
     @breed = params['breed']
     erb :display_puppy
   end
-
-
 end
